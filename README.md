@@ -72,3 +72,4 @@ No bugs at the moment.
 
 ## [License](https://github.com/philipkariuki/news-highlight/blob/master/LICENSE)
 MIT © 2019 [philipkariuki](https://github.com/philipkariuki
+# News-Highlight
