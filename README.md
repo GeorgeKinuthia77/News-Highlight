@@ -4,6 +4,15 @@
 
 George Kinuthia (30/7/2019)
 
+## Description
+An application that allows users to get news articles form multiple news sources online.
+
+## Technologies Used
+* Python 3.6.5
+* Flask Framework
+* HTML/CSS
+* JavaScript
+
 ## links
 
 Github link:https://github.com/GeorgeKinuthia77/News-Highlight
