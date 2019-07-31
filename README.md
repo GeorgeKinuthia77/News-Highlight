@@ -4,6 +4,13 @@
 
 George Kinuthia (30/7/2019)
 
+## links
+
+Github link:https://github.com/GeorgeKinuthia77/News-Highlight
+
+Live link:https://georgenews.herokuapp.com/
+
+
 ## BDD
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
