@@ -19,7 +19,6 @@ Github link:https://github.com/GeorgeKinuthia77/News-Highlight
 
 Live link:https://georgenews.herokuapp.com/
 
-
 ## BDD
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
@@ -27,6 +26,15 @@ Live link:https://georgenews.herokuapp.com/
 | Display articles from a news source | **Click a news source** | Redirected to a page with a list of articles from the source |
 | Read an entire article | **Click an article** | Redirected to the news source's site to read the entire article |
 
+## Setting up environment variables
+Create a file to start the application. `touch start.sh`
+Inside the start file  input the environment variables and start command below.
+```
+export NEWS_API_KEY=<Get an API KEY from newsapi.com >
+
+python3.6 manage.py server
+
+```
 
 ## [LICENSE](LICENSE)
 This project is licensed under the MIT License.
