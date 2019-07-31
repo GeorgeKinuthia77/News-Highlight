@@ -1,0 +1,34 @@
+
+<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+
+
+
+
+<!-- Content block -->
+{% block content %}
+<div class="container">
+
+    
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 articles-details">
+            <h3>{{ articles.title }}</h3>
+
+            <p>{{ macro.displayArticlesList(articles) }}</p>
+
+        
+        </div>
+    </div>
+
+
+
+</div>
+{% endblock %}
+
+
+
+
+
+
