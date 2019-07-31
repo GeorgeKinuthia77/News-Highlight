@@ -36,6 +36,14 @@ python3.6 manage.py server
 
 ```
 
+## Create and activate the virtual environment
+```bash
+python3.6 -m virtualenv env
+```
+
+```bash
+source env/bin/activate
+```
 ## [LICENSE](LICENSE)
 This project is licensed under the MIT License.
 
