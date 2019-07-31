@@ -57,8 +57,6 @@ def get_articles(id):
     return article_results
 
 
-
-
 def process_sources_results(sources_list):
     '''
     Function  that processes the movie result and transform them to a list of Objects
@@ -84,9 +82,6 @@ def process_sources_results(sources_list):
     return sources_results
 
 
-
-
-
 def process_articles(articles_list):
     '''
     process the dictionary and output a list of objects
@@ -94,7 +89,7 @@ def process_articles(articles_list):
     article_results = []
     for result in articles_list:
 
-        
+
         title = result.get('title')
         description = result.get('description')
         author = result.get('author')
@@ -103,17 +98,10 @@ def process_articles(articles_list):
         urlToImage = result.get('urlToImage')
         content = result.get('content')
 
-      
-        
-        
 
-    
+
         article_object = Article(title,description,author,url,publishedAt,urlToImage,content)
 
         article_results.append(article_object)
 
     return article_results
-
-
-
-

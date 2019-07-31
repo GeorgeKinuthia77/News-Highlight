@@ -7,11 +7,8 @@ class Source:
         self.id =id
         self.name= name
         self.description = description
-        self.category = category 
-        self.url = url   
-
-
-
+        self.category = category
+        self.url = url
 
 
 class Article:
@@ -19,11 +16,11 @@ class Article:
     Articles class
 
     '''
-   
+
 
     def __init__(self,title,description,author,url,publishedAt,urlToImage,content):
-        
-        
+
+
         self.title = title
         self.description = description
         self.author = author
@@ -31,7 +28,3 @@ class Article:
         self.publishedAt = publishedAt
         self.urlToImageImage = urlToImage
         self.content = content
-
-
-
-
