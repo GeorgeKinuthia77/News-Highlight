@@ -44,6 +44,22 @@ python3.6 -m virtualenv env
 ```bash
 source env/bin/activate
 ```
+
+## Install dependencies
+While in the activated virtual environment, install dependencies needed to run the application.
+```bash
+(env)$ pip install -r requirements.txt
+```
+
+## Run the app
+While in the activated virtual environment export environment variables and run the app with the commands below.
+
+```bash
+(env)$ export NEWS_API_KEY=<Your api key>
+(env)$ export SECRET_KEY=<Your secret key>
+(env)$ python3.6  manage.py server
+```
+
 ## [LICENSE](LICENSE)
 This project is licensed under the MIT License.
 
