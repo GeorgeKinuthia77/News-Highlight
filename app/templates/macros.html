@@ -2,18 +2,16 @@
 <!-- DISPLAYING SOURCES MACRO -->
 {% macro displaySourcesList(sources_list) %}
     {% for source in sources_list %}
-   
+
 
 <style>
-
-
 
 .col-md-3 {
 
 margin: 30px;
 border: 2px solid #ccc;
-background-image: url('static/images/news.jpg'); 
-background-size: cover; 
+background-image: url('static/images/news.jpg');
+background-size: cover;
 background-color: lightgrey;
 height: 180px;
 padding: 60px 0px;
@@ -25,7 +23,7 @@ box-shadow: 0 0 25px purple;
 
 
 
-.grid { 
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
@@ -51,7 +49,7 @@ box-shadow: 0 0 25px purple;
 
  <a href="/source/{{source.id}}" target="_blank">
 
-        
+
             <div class=col-md-3>
                 <div class="grid">
                   <article>
@@ -62,8 +60,8 @@ box-shadow: 0 0 25px purple;
                 </div>
             </div>
     </a>
-    
-    
+
+
     {% endfor %}
 {% endmacro %}
 
@@ -82,7 +80,7 @@ box-shadow: 0 0 25px purple;
 
         <div class="container col-md-12 col-lg-12" style="background-color: #fff;
     border: 1px solid #e8e8e9">
-           
+
             <hr> {{habari.urlToImage}}
             <div class="card"  style="height:auto; width:50%; margin-bottom:7%; margin-left:0%;">
                 <div class="card-body">
@@ -103,14 +101,7 @@ box-shadow: 0 0 25px purple;
                 <br>
                 <hr>
             </div>
-            
+
         </div>
   {% endfor %}
 {% endmacro %}
-
-
-
-
-
-
-
